@@ -8,6 +8,58 @@
   color: green;
 }
 
+.navbar {
+  background: #00191C;
+  margin-bottom: 0px;
+}
+
+.navbar-header {
+  width: 25%;
+}
+
+.navbar-brand {
+  margin:auto;
+  padding: 2%;
+  width: 100%;
+}
+
+.navbar img {
+  height: 100%;
+}
+
+.tablecontainer {
+  height: 93vh;
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  background: #C3C1C1;
+}
+
+.row.table {
+  padding-top: 0;
+}
+
+.table.table-bordered {
+  font-size: 20px;
+  border-width: 2px;
+  background: white;
+}
+
+.contestant {
+  border-color: black;
+  border-width: 2px;
+}
+
+.posChange {
+  width: 30px;
+  text-align: center;
+}
+
+.arrow{
+  text-align: center;
+}
+
+
 /* First two should be green ( or a colour that shows it's good ) */
 tr.contestant:nth-child(1),
 tr.contestant:nth-child(2) {
@@ -20,7 +72,7 @@ tr.contestant:nth-child(3),
 tr.contestant:nth-child(4),
 tr.contestant:nth-child(5),
 tr.contestant:nth-child(6) {
-  background-color: #f1f442;
+  background-color: #FFB370;
 }
 
 
@@ -28,5 +80,10 @@ tr.contestant:nth-child(6) {
 tr.contestant:nth-last-child(1),
 tr.contestant:nth-last-child(2),
 tr.contestant:nth-last-child(3) {
-  background-color: #ff8484;
+  background-color: #FFADB0;
+}
+
+.footer {
+  height: ;
+  background-color: #C3C1C1;
 }
